@@ -172,8 +172,8 @@ main() {
   local right_column2=$show_session
 
   # Window status by default shows the current directory basename.
-  local window_status_format=$show_directory
-  local window_status_current_format=$show_directory
+  local window_status_format=$show_directory_in_window_status
+  local window_status_current_format=$show_directory_in_window_status_current
 
   # NOTE: With the @catppuccin_window_tabs_enabled set to on, we're going to
   # update the right_column1 and the window_status_* variables.
